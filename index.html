@@ -13,10 +13,26 @@
     <script src='https://code.jquery.com/jquery-3.4.1.min.js' type='application/javascript'></script>
     <link crossorigin='anonymous' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
         integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' rel='stylesheet' />
-    <link  rel="stylesheet" type="text/css" href="https://luiszanella.github.io/MyWebSite/index.css"/>
+    <link rel="stylesheet" type="text/css" href="https://luiszanella.github.io/MyWebSite/index.css" />
 </head>
 
 <body style="background-color:black">
+    <header class="page-header navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="Header">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">HiZane</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><i class="material-icons">view_headline</i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <!--<li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>-->
+                    <li class="nav-item"><a (click)="scrollToElement('OurService')" class="nav-link">Prueba</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <main class="col-12 col-xs-12" style="background-color: azure">
         <section>
             <div>
